@@ -8,10 +8,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class RetrofitClient() {
 
-
-
     companion object {
-        private val BASE_URL: String = "DNS ID"
+        private val BASE_URL: String = "EC2 PUBLIC DNS"
         private var retrofit: Retrofit? = null
 
 
@@ -23,7 +21,6 @@ class RetrofitClient() {
                     .addConverterFactory(GsonConverterFactory.create())
                     .build()
             }
-
 
             return retrofit!!
         }

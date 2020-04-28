@@ -9,5 +9,4 @@ data class JoinData(
     private var userEmail: String,
     @SerializedName("userPwd")
     private var userPwd: String
-
 )

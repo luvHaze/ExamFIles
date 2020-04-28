@@ -9,11 +9,11 @@ import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.POST
 
-interface ServiceAPI {
+public interface ServiceAPI {
 
     @POST("/user/login")
     fun userLogin(@Body data : LoginData) : Call<LoginResponse>
 
-    @GET("/user/join")
+    @POST("/user/join")
     fun userJoin(@Body data : JoinData) : Call<JoinResponse>
 }

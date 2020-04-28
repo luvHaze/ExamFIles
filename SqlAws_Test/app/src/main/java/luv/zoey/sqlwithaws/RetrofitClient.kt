@@ -11,10 +11,10 @@ class RetrofitClient() {
 
 
     companion object {
-        private val BASE_URL: String = "DNSID"
+        private val BASE_URL: String = "DNS ID"
         private var retrofit: Retrofit? = null
 
-        val gson = Gson()
+
         fun getClient(): Retrofit {
 
             if(retrofit==null){

@@ -13,7 +13,7 @@
         android:layout_marginTop="168dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="ID"
+        android:hint="ID"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,7 +25,7 @@
         android:layout_marginTop="24dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="PW"
+        android:hint="PW"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtID_Join" />
@@ -37,7 +37,7 @@
         android:layout_marginTop="28dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="EMAIL"
+        android:hint="EMAIL"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtPW_Join" />
@@ -49,7 +49,7 @@
         android:layout_marginTop="32dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@android:string/emptyPhoneNumber"
+        android:hint="@android:string/emptyPhoneNumber"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtEmail_Join" />

@@ -1,29 +1,24 @@
 package luv.zoey.viewmodelexam
 
+import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import luv.zoey.viewmodelexam.ui.main.BlankFragment
-import luv.zoey.viewmodelexam.ui.main.MainFragment
+import android.util.Log
+import luv.zoey.viewmodelexam.ui.main.SecondActivity
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(),ToastListener{
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_activity)
 
+        var scdActivity =SecondActivity(this)
 
-        if (savedInstanceState == null) {
-            supportFragmentManager.beginTransaction()
-                    .replace(R.id.container, MainFragment.newInstance())
-                    .commitNow()
-        }
+    }
 
-        if(intent.extras!=null){
-            supportFragmentManager.beginTransaction()
-                .replace(R.id.container, BlankFragment.newInstance())
-                .commitNow()
-        }
-
+    override fun onToast(context: Context) {
+        Log.d("Toast발생","${context.toString()}o")
 
     }
 }

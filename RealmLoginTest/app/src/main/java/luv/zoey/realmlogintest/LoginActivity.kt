@@ -31,6 +31,7 @@ class LoginActivity : AppCompatActivity() {
 
                 Toast.makeText(this,"${loginUser?.Id} 님 환영합니다.",Toast.LENGTH_LONG).show()
             }else{
+                Toast.makeText(this,"유효하지 않은 계정정보입니다..",Toast.LENGTH_LONG).show()
                 Log.d("id :" ,loginUser?.Id.toString())
             }
 

@@ -38,9 +38,16 @@ class JoinActivity : AppCompatActivity() {
         user.Email = edtEmail_Join.text.toString()
         user.phoneNum = edtPhone_Join.text.toString()
         realm.executeTransactionAsync {
-            it.insert(user)
 
+
+            it.copyToRealm(user)
+
+            Log.d("Success",it.where(User::class.java).findAll().toString())
+            Realm.Transaction.OnSuccess {
+
+            }
         }
+
 
 
     }

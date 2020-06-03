@@ -31,7 +31,7 @@ class ChatRoomActivity : AppCompatActivity() {
     private var startTyping = false
     private var time = 2
 
-    private var mSocket: Socket = IO.socket("http://f11f6edc65a2.ngrok.io/")
+    private var mSocket: Socket = IO.socket("http://8171a12768de.ngrok.io")
 
     //리사이클러뷰
     var arrayList = arrayListOf<ChatModel>()

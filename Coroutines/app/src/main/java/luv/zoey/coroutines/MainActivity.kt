@@ -1,8 +1,11 @@
 package luv.zoey.coroutines
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.provider.Settings
 import android.util.Log
+import androidx.lifecycle.lifecycleScope
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.*
 
@@ -102,6 +105,36 @@ class MainActivity : AppCompatActivity() {
             delay(2000L)
             job2.cancel()
             Log.d(TAG, "Canceled Job ! ")
+        }
+        */
+
+        //[006] lifecycleScope and viewModelCycle
+        // 글로벌 스코프, 라이프사이클 스콮, 뷰모델스콮
+        // 해당하는 주기에만 코루틴이 돌아간다.
+
+        /*
+        button.setOnClickListener {
+            // 글로벌 스코프 사용시 Second Activity로 넘어가도
+            // 계속해서 코루틴이 돌아가는것을 볼 수 있다.
+            *//*GlobalScope.launch{
+                while(true){
+                    delay(1000L)
+                    Log.d(TAG,"Still Running")
+                }
+            }*//*
+            lifecycleScope.launch{
+                while(true){
+                    delay(1000L)
+                    Log.d(TAG,"Still Running")
+                }
+            }
+            GlobalScope.launch {
+                delay(5000L)
+                Intent(this@MainActivity,SecondActivity::class.java).also{
+                    startActivity(it)
+                    finish()
+                }
+            }
         }
         */
 

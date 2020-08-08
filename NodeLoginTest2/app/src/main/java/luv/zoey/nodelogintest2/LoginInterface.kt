@@ -8,4 +8,8 @@ interface LoginInterface {
 
     @POST("/login")
     fun executeLogin(@Body user: User) : Call<authPOJO>
+
+    @POST("/signup")
+    fun executeLogin(@Body user: User) : Call<authPOJO>
+
 }

@@ -7,97 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b196e6f0-f26d-4ec9-90c7-71054565337e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Coroutines/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/src/androidTest/java/luv/zoey/coroutines/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/src/main/java/luv/zoey/coroutines/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/app/src/test/java/luv/zoey/coroutines/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Coroutines/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/androidTest/java/luv/zoey/motiolayoutexam/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/main/java/luv/zoey/motiolayoutexam/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/main/res/drawable/ic_twitter_logo_whiteonblue.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/main/res/drawable/ic_twitter_logo_whiteonimage.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/main/res/xml/activity_main_scene.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/app/src/test/java/luv/zoey/motiolayoutexam/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MotioLayoutExam/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodeLoginTest2/app/src/main/java/luv/zoey/nodelogintest2/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../NodeLoginTest2/app/src/main/java/luv/zoey/nodelogintest2/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LiveDataCodeLab_/app/src/main/java/com/zoey/android/livedatacodelab/NewWordActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LiveDataCodeLab_/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LiveDataCodeLab_/app/src/main/res/layout/activity_new_word.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LiveDataCodeLab_/app/src/main/res/layout/recyclerview_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LiveDataCodeLab_/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LiveDataCodeLab_/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LiveDataCodeLab_/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LiveDataCodeLab_/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_27" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -124,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../MVVMShoppingList-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunManager">
@@ -201,10 +125,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1220" y="278" key="FileChooserDialogImpl" timestamp="1592031146781">
+    <state x="1220" y="278" key="FileChooserDialogImpl" timestamp="1592386509181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592031146781" />
+    <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592386509181" />
     <state x="922" y="165" key="SettingsEditor" timestamp="1592030922120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

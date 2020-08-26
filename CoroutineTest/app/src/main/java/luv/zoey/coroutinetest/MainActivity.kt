@@ -1,60 +1,37 @@
 package luv.zoey.coroutinetest
 
+import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.AttributeSet
 import android.util.Log
+import android.view.View
+import androidx.databinding.DataBindingUtil
+import androidx.databinding.ViewDataBinding
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModelProviders
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.*
+import luv.zoey.coroutinetest.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
     val TAG = "MainActivity"
+    private lateinit var viewModel: MainViewModel
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+        binding.lifecycleOwner = this
 
-        drawNumNoSuspend()
-        Log.d(TAG,"All Number Draw")
+        viewModel = ViewModelProviders.of(this).get(MainViewModel::class.java)
 
-    }
+        binding.mainViewModel = viewModel
 
-    fun drawNumSuspend(){
-        GlobalScope.launch {
-            one()
-            two()
-            three()
-        }
-    }
-    fun drawNumNoSuspend(){
-        GlobalScope.launch {
-            one1()
-            two2()
-            three3()
-        }
-    }
 
-    suspend fun one() {
-        delay(1000)
-        Log.d(TAG, "Draw One")
-    }
-
-    suspend fun two() {
-        delay(1000)
-        Log.d(TAG, "Draw Two")
-    }
-
-    suspend fun three() {
-        delay(1000)
-        Log.d(TAG, "Draw Three")
-    }
-    fun one1(){
-        Log.d(TAG, "Draw One No susend")
-    }
-    fun two2(){
-        Log.d(TAG, "Draw Two No susend")
-    }
-    fun three3(){
-        Log.d(TAG, "Draw Three No susend")
     }
 
 }
